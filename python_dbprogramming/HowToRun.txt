@@ -1,0 +1,30 @@
+oracle database programming with python 
+
+steps:
+
+	1) download oracle from https://www.oracle.com/database/technologies/xe-prior-releases.html as your os reqt.
+
+	2) install it (setup.exe)
+
+	3) open GET STARTED application of oracle & login administrator with username as sys and password as root by default.
+
+	4) create workspace and database as any name u want.
+
+	5) open command prompt for setting environment variables
+
+	6) type  ===>  set ORACLE_SID=demodb          (set env variable)
+
+			echo %ORACLE_SID%             (for confirmation)
+
+			set ORACLE_HOME=C:\oraclexe\app\oracle\product\11.2.0\server                    (set env value)
+
+			echo %ORACLE_HOME%            (for confirmation)
+
+
+	7) in cmd type ==> sqlplus
+
+			   enter username and password (in my case surya)
+
+			   connect SURYA      (workspace created in oracle)
+
+			   desc iris_oracle;  (table created from python)
